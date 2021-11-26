@@ -1,0 +1,29 @@
+step 1:
+add dependencies
+
+step 2:
+create a file named log4j.properties inside src/main/resources
+
+step 3: paste the content inside log4j.properties
+
+step 4: change the output log file location in log4j.properties
+
+usually log file will be kept inside src/test/resources/log
+
+filename -> application name or projectname.log
+
+.log is the file extension
+
+
+Step 4: add the below line in the firsdt line of ur code
+	PropertyConfigurator.configure(pathOflog4jpropertyfile);
+
+Now the set up is complete
+
+
+Then we can use logger
+
+How to use log statements inside ur classes?
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+

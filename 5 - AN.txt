@@ -1,0 +1,66 @@
+How to get input from user?
+To get input from user, we use 'Scanner' class - it is present in java.util package
+
+String - it is present in java.lang
+
+Difference between next and nextline in java
+
+how to get character input?
+
+
+===========================
+
+How to pass parameters(arguments) into a method
+
+================================
+calculator 
+
+
+
+
+
+==================================
+OOPS -Object Oriented Programming Structure
+Class - collection of variables, objects and methods
+MEthod - Block of code that does some action
+Objects - 
+Inheritance - Accessing the information of one class from another class(Parent and child relationship). Memory wastage is reduced. And Reusablity
+Abstraction
+Encapsulation
+Polymorphism
+
+
+
+=============================
+Types of Inheritance:
+Simple or single inheritance
+Multilevel inheritance
+Multiple inheritance - It is not directly possible in java. But it can be achieved using Interfaces
+Hierarchical inheritance
+Hybrid inheritance
+
+==============
+
+
+PArent class or super class or Base class
+Child class or sub class
+
+Single inheritance - Ther will be only one parent class and one child class
+Multilevel inheritance - Maore than one child class and more than one parent class - Accessing information in a tree level structure
+Hierarchical : One parent and more than one child class structure
+
+====================
+
+Task -> Hierarchical inheritance
+Create a class called Animals - PArent class - Create a method called - declare variables as limbs= 4; eyes=2; brain=0;
+Create 3 child classes called Monkey, Donkey and Crocodile
+getMonkeyInfo, getDonkeyInfo and getCrocoInfo - u should call the variable limbs, eyes, and brain
+
+
+
+
+
+
+
+
+

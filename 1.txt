@@ -1,0 +1,57 @@
+C- onbject -No
+C++ - partiallly OOPS concept based
+
+
+no pointers in java
+Java - almost everything is oops based
+
+
+C/C++ - In general - OS level application - OS like application 
+java - applications that run on any platform
+even in modern world, Android applications - backed logic java
+
+Advantages:
+WORA - Write once Run Anywhere 
+Platform Independent
+Resuablity 
+
+To run an existing code or develop new java code, u need JDK installed in ur machine
+
+
+Java Editor - NetBeans, IntelliJ, Eclipse, NotePad
+
+Industry - Eclipse - most used - Intellij second most used
+
+Eclipse , Intellij - Java editors or IDE(Integrated Development Environment)
+
+eclipse oxygen 3a 
+lateest -1.8 (version 8)
+java 7 - My project
+
+
+OOPS -Object Oriented Programming structure
+
+
+
+Creating a project:
+
+Open Eclispe -> File->New-> Java project -> Enter a Name -> Click finish
+
+Right click ur project -> New -> PAckage- >enter package name->finish
+Right click package -> new -> class -> enter classname -> finish
+
+In java you cannot write any code without a class.
+Without main method - u cannot run a java program
+Main method is the starting point of java program
+
+
+Task 1: 
+Download and install jdk and eclipse
+Create new project called 'FirstProject'
+create a new package called 'firstpackage'
+create a new class called 'MyFirstClass'
+main - This is my first java program
+
+
+
+

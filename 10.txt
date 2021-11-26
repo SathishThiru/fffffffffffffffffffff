@@ -1,0 +1,33 @@
+this and super Keyword 
+
+Main use case of these keywords comes into picture when both child and parent class have same variables or methods.
+
+//to call a method in parent class from child class
+		//MEthod 1: using parent class object
+		A a = new A();
+		a.getStudentId();
+		
+		//Method 2: using child class object 
+		//Limitation - this method cant be used if both parent and child class
+		//have same method name
+		
+		B b = new B();
+		
+		//Method 3: creating child class object and storing it in parent class reference
+		
+		A obj = new B();
+
+this keyword cant be used inside a static method
+
+int, float, String - thhey are all existing datatypes
+Each class u create is its own custom datatype
+
+if u want to call super super class constructor from child class, u can use super() method.
+But, super method can be used only from child class constructor.
+
+super method can only be used in first statement of child class constructor
+if u want to call parameterized constructor, u can use super(parameters);
+
+
+When u create an object for cchild class, it will first invoke parent class default constructor
+and then only it will invoke child class constructor.

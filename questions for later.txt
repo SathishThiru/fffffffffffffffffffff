@@ -1,0 +1,9 @@
+what is constructor chaining?
+split functionality in string
+toCharArray();
+
+\project archictetcure?
+
+team size - team lead -onsite, offshore
+xpth - sibling
+

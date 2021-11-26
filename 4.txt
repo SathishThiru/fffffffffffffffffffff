@@ -1,0 +1,61 @@
+Eclipse Editor , Net beans or Intellij - Editors or IDE (Integrated Development Environment)
+
+Latest version of java -8
+
+what are using in ur project - java 7
+Java -  version 7
+Eclipse  - Oxygen 3a
+
+Declaration:
+
+int i=10;
+float fl =1.2f;
+
+Declaration Meaning - I am telling the JVM that there is going to be a variable of name 'x' of datatype 'y'
+
+Initialization - if u are assigning a value to a variable at the beginning itslef it is called initialization;;
+
+
+Variable - where can we declare? 
+1.inside any method - it is called method variable or method local variable - It can be used only within that method. It cannot be used in any other method
+2.. Class level or global variable - it can be used anywhere inside the class
+
+
+
+
+Method level variable has to intialized during decalration itself. Else it will throw error
+But Class level variable need not be initialized during declaration itself
+
+
+
+If I dont initialize or provide any value to the class level variables then it will assume default values
+Default values:
+int - 0
+boolean - false
+String - null
+float 0.0
+
+
+First excercise - Declare global  variables for Double, Character and Long - Print the default values
+
+
+Arithmetic operrations:
+a+b 
+a-b
+a*b ->multiply
+a/b ->gives quotient
+a%bb - gives remindder
+
+=============================
+
+int a=635;
+
+int b=83;
+
+a/b +  a%b
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+OOPs - Class, method, object, inheritance, polymorphism, abstraction and Encapsualtion
+
+
+Abstraction - Hiding of implementation information
+Abtraction - we can have full abstraction or partial abstraction
+Full abstraction - it is achieved using Interface
+Partial abstraction is achieved suing Abstract classes
+
+Tto create a abstract class you will be using a keyword called 'abstract'
+
+In an abstracct class, we can have both abbbbbstract method aand  non-abstract mmethods
+
+
+
+
+Abstract class and Interface will have abstract methods with no logic inside. These methods should be implemented in child classes.
+
+
+
+

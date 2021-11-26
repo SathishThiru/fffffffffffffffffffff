@@ -1,0 +1,17 @@
+You cannnot create object for abstract class or interface
+
+Why? In abstract class and interface we will be having abstract methods. These abstract methods will not be having any logic inside them.
+The logic will be written inside child classes. So those methods can be called from child classes directly. So there is no need for object creation
+of parent abstract or interfaces
+
+
+
+if parent and child class have same method name and same arguments. And if u want to call parent class method from child class, then :
+ParentClassName obj = new ChildClassName();
+obj.methodName();
+
+
+============
+Encapsulation : It is a way to achieve security in java. We can deny access to class variables by making them private
+
+Access smodifiers - public, protected, private and default

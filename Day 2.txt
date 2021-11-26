@@ -1,0 +1,38 @@
+Project Structure:
+Project -> Collection of Packages -> Collection of classes -> Collection of methods, variables and objects
+
+Naming convention:
+Pascal Notation = First Character of all The words are Capital letters - FirstProjectOfJava (Project Name, Class Name)
+Camel Case notation = firstProjectOfJava - (variable name, method name)
+
+getStudentDetails()
+
+packageName - all words are small letters in general - usually starts with 'com.', 'org.', etc
+
+method format:
+
+access_modifier returnType methodname(parameters)
+{
+
+//logic
+
+}
+
+To call a method, we need object
+
+
+object ccrreation:
+ClassNanme referenceName = new ClassName();
+
+new keyword - creates a new memory/object
+
+why should we create a method? - for achieving reusability
+
+
+Create a project -> Create a package -> Create a class called CompanyDetails. Then Create a method called companyInfo(). When I call this method, it should print: 
+'Company name is CTS'
+'Company is located in Chennai'
+
+
+
+

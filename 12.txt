@@ -1,0 +1,52 @@
+String class and its inbuilt functionalities
+String is a class that is inbuilt in java library.
+Because it is a class, it has some predefined methods.
+usage of these methods:
+
+str.length() - to find length of the string
+str.charAt(n) - to find the character present at nth positon
+if u compare two string using'=='. For eg: str1==str2, it wont compare the values.
+Rather it will compare the memory address
+if u want to compare values of two strings u should use str1.equals(str2);
+tr1.equalsIgnoreCase(str3)
+
+str.contains("stringvalue") - return boolean value - 
+
+str1.toUpperCase()
+str1.toLoerCase()
+
+String str2 = str1.substring(2); - creates a new substring that starts from index 2 till the end index and store it in str2
+
+String str2 = str1.substring(2, 4)	; -Returns a string that is a substring of this string. Thesubstring begins at the specified beginIndex andextends to the character at index endIndex - 1.
+isEmpty();
+startsWith() and endsWith():
+
+Literal String:
+ It’s stored inside the heap memory (string pool or string constant).
+ It will share the memory if same value (duplicate value)
+Non-literal string:
+ Its stored in the heap memory.
+ Its create a new memory every time even if its duplicate value(same value)
+
+
+Task: 
+Declare a literal string - get input using scanner class from user and store it in the declared string
+- print the middle character of the string and last character.
+
+creata a method which accepts two caratcetrs a arguments  -char 1(middle character of above string),
+char 2 - last character of above string 
+
+method action - add two characters and print them
+
+declare a literal string = "This is java training".
+output - This is java train
+
+
+
+
+
+Concepts:
+Collections , String manipulation 
+
+publicis sapient - vinodh 
+cts - 

@@ -1,0 +1,31 @@
+Polymorphism: Using same method with different logic
+2 Types: Method overloading and method overriding
+
+Method overloadig: Using saame method name inside same class but with some difference in the parameters.
+Like order of the parameters, or datatype of the parameters, etc
+
+Method overriding - Using same method name inside parent and child class but with different implementation logic
+
+
+
+
+
+
+
+
+
+Homework:
+Method overloading - create a class called Bank.  In that create 3 methods with same name as 'bankInfo' wuth different arguments. Each method should give some information of the bank
+
+
+Multpile Inheritance is not directly possible in java. Reason is because of priority problem or deadly diamon problem.
+
+Lets assume that we have two parent classes A and B. There is one child class C which inherits from both A and B. Now, lets assume that both A and B has same methods called 'print()' in them.
+Now JVM will not know which 'print' method from which parent lcass to be called.
+
+This is called priority issue
+
+However, we can achieve multiple inheritance in java with 'Interfaces'.
+
+
+

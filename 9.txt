@@ -1,0 +1,67 @@
+protected  - variable or method - it can be accessed anywhere inside an class inside same package using an object of the owner class or even child class. Outside of the package,
+ if u want to access a protected variable or method - then u will have to use extends keyword 
+
+
+default - variable or method - t can be accessed anywhere inside an class inside same package using an object of the owner class or even child class.
+outside of the current package, u can never access the variable or method
+
+public  - anywhere  -wtihin same package or outside the package
+
+
+private - within same class only
+
+
+
+
+
+
+return type of a method:
+return statement should be last statement of a method
+
+
+
+
+Constructor: It looks like a method. It acts like a method more or less. But it is not a method.
+It is kind of a special method whose name is same as the class name.
+Constructor doesn't have any return type
+If you add a return  type to a constructor, it will act like a normal method in java
+
+Constructor will automatically be invoked when an object is created
+Constructor:
+Default constructor and parameterized constructor
+
+Constructor overloading:
+
+
+task 1 - create a calss called MyDetails. 
+
+get ur name and ur age as input from the user
+pass this input as arguments into a method called getMyDetails(cccccccc). 
+
+return type of the mthod should be float.
+method should print ur name
+method should calculate -> ur age * 10 -> store it in a float variable. and return it
+main method - get the returned value and print it from main method
+
+task 2:
+create a class. create 3 construcotrs - all should have some parameters- overloading 
+inside each constructor, print the paramter values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

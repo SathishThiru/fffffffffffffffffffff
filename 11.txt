@@ -1,0 +1,49 @@
+Object creation: Instance
+
+Each objection creation creates a current instance or current copy of the class
+
+During object creation, following happens:
+1. new memory space is allocated
+2. constructor is called
+3. Instance or current copy of class will be created
+
+static keyword: Very important 50%
+static keyword can be used at variable level, method level and class level
+
+use of static keyword:
+if u declare a variable or method as static, then you need not create an object to call them.
+u can directly call them using Classname.variable name or classname.methodName
+
+
+static variable - address will never change. But value can be changed. 
+
+non static variable - address will change for each object
+
+static method - can be overloaded. but it cannot be overriden
+.
+
+why ststic method cannot be overriden - because memory address of the method block cannot be changed. so, it wont allow u to override
+
+
+static keyword at class level
+we cannot use static keyword at class level.
+but if u want to use it, then u can use it for inner classes
+
+
+
+final keyword: it can used with variable or method or class
+if u declare a variable as final, its value cannot be changed
+if u declare a method as final then it can be overloaded. but it cannot be overriden
+if u declare a class as final, it cannot be inherited
+final variable must definitely be initialized
+
+
+
+
+
+
+
+
+
+
+
